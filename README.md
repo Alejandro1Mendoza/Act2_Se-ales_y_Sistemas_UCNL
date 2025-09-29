@@ -1,4 +1,4 @@
-# Act2_Se-ales_y_Sistemas_UCNL
+# Act2_Señales_y_Sistemas_UCNL
 Simulación y análisis de señales con la transformada de Fourier
 Análisis de Señales con Ruido (Dominio Temporal y Espectral)
 Este script de Python utiliza las librerías numpy, matplotlib, y scipy para generar una señal compuesta, añadirle ruido y analizar sus componentes de frecuencia utilizando la Transformada Rápida de Fourier (FFT).
@@ -8,11 +8,11 @@ El objetivo es demostrar cómo la FFT permite descomponer una señal compleja de
 🚀 Requisitos
 Asegúrate de tener instaladas las siguientes librerías de Python:
 
-´´´bash
+```bash
 
 pip install numpy matplotlib scipy
 
-´´´
+```
 
 ⚙️ Estructura y Funcionamiento del Código
 El script está dividido en cinco secciones lógicas:

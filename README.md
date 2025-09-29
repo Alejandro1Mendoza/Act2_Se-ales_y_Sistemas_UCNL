@@ -14,7 +14,6 @@ pip install numpy matplotlib scipy
 
 ```
 
-
 ⚙️ Estructura y Funcionamiento del Código
 El script está dividido en cinco secciones lógicas:
 
@@ -58,9 +57,9 @@ El gráfico de frecuencias mostrará un espectro con un pico notable en 50 Hz y 
 📝 Uso
 Guarda el código fuente como analisis_fft.py.
 
-´´´bash
-python analisis_fft.py
-´´´
+```bash
+Act2_Se-ales_y_Sistemas_UCNL.py
+```
 
 Revisa la salida de la consola para ver las componentes detectadas:
 

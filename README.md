@@ -14,6 +14,7 @@ pip install numpy matplotlib scipy
 
 ```
 
+
 ⚙️ Estructura y Funcionamiento del Código
 El script está dividido en cinco secciones lógicas:
 

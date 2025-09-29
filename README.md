@@ -18,24 +18,15 @@ pip install numpy matplotlib scipy
 El script está dividido en cinco secciones lógicas:
 
 1. Parámetros de la Señal
-Se definen la frecuencia de muestreo (F 
-s
-​
- =1000 Hz), el tiempo total de la muestra y las frecuencias de las componentes puras (f 
-1
-​
- =50 Hz, f 
-2
-​
- =120 Hz).
+2. Se definen la frecuencia de muestreo (Fs =1000 Hz), el tiempo total de la muestra y las frecuencias de las componentes puras (f1=50 Hz, f2=120 Hz).
 
-2. Generación de la Señal
+3. Generación de la Señal
 Se crea un vector de tiempo (t) y se construye la señal pura como la suma de dos senoides. Luego, se agrega ruido aleatorio gaussiano (modelado como np.random.normal) para simular un escenario real.
 
-3. Cálculo de la FFT
+1. Cálculo de la FFT
 Se calcula la Transformada Rápida de Fourier (fft) de la señal ruidosa, y se genera el vector de frecuencias (fftfreq) para el correcto mapeo del espectro.
 
-4. Visualización
+1. Visualización
 Se generan dos gráficos:
 
 Dominio Temporal (Arriba): Muestra la señal ruidosa superpuesta a la señal original.
@@ -43,7 +34,8 @@ Dominio Temporal (Arriba): Muestra la señal ruidosa superpuesta a la señal ori
 Dominio Espectral (Abajo): Muestra el espectro de amplitud (normalizado) con picos en las frecuencias 50 Hz y 120 Hz.
 
 5. Análisis de Componentes
-Se realiza una detección simple de picos en el espectro de frecuencia positiva, utilizando un umbral fijo (umbral = 0.5), e imprime las frecuencias dominantes detectadas.
+Se realiza una detección simple de picos en el espectro de frecuencia positiva, utilizando un umbral fijo 
+(umbral = 0.5), e imprime las frecuencias dominantes detectadas.
 
 📊 Resultados Esperados
 Al ejecutar el script, se abrirá una ventana que muestra dos gráficos:

@@ -55,7 +55,7 @@ Espectro de Frecuencia
 El gráfico de frecuencias mostrará un espectro con un pico notable en 50 Hz y otro en 120 Hz. La altura de estos picos debe ser cercana a las amplitudes de la señal original (0.7 y 1.0). El resto de las frecuencias mostrarán amplitudes bajas, representando el ruido.
 
 📝 Uso
-Guarda el código fuente como analisis_fft.py.
+Guarda el código fuente como Act2_Se-ales_y_Sistemas_UCNL.py
 
 ```bash
 Act2_Se-ales_y_Sistemas_UCNL.py
